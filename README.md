@@ -28,14 +28,9 @@ This is a Python script to download M3U8 videos and create a corresponding text 
    pip install yt-dlp
    ```
 
-## 🍪 Obtaining Firefox Cookies
+## 🍪 Firefox Cookies
 
-To download videos that require authentication, you need to provide cookies from your Firefox browser:
-
-1. Install the `Get cookies.txt` extension for Firefox.
-2. Navigate to the website and log in.
-3. Click the extension icon and download the cookies as `cookies.txt`.
-4. Ensure the `cookies.txt` file is in the same directory as your script.
+The program automatically uses your Firefox cookies. This means that if the website you are downloading from requires authentication, the script will still be able to download the video without any additional steps from you. Ensure you are logged into the website in Firefox before running the script.
 
 ## 🚀 Usage
 
