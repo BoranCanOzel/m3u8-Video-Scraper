@@ -5,12 +5,12 @@ import subprocess
 def main():
     # Get user inputs
     video_name = input(
-        "Enter the video name (e.g., 4 Don't Try to imitate HOW I SPEAK.mp4): ")
+        "Enter the video name (e.g., 4 How to create a database.mp4): ")
     if not video_name.endswith(".mp4"):
         video_name += ".mp4"
 
     video_url = input(
-        "Enter the video URL (e.g., https://fast.wistia.com/embed/medias/zqa96s9oyj.m3u8): ")
+        "Enter the video URL (e.g., https://fast.wistia.com/embed/medias/zqa45345j.m3u8): ")
 
     print("Enter the prompt text (type 'END' on a new line to finish):")
     prompt_lines = []
