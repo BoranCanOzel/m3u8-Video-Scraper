@@ -19,7 +19,7 @@ This is a Python script to download M3U8 videos and create a corresponding text 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/m3u8-video-scraper.git
+   git clone https://github.com/BoranCanOzel/m3u8-Video-Scraper.git
    cd m3u8-video-scraper
    ```
 
