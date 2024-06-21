@@ -41,8 +41,8 @@ The program automatically uses your Firefox cookies. This means that if the webs
    ```
 
 3. Follow the prompts:
-   - Enter the video name (e.g., `4 Don't Try to imitate HOW I SPEAK.mp4`).
-   - Enter the video URL (e.g., `https://fast.wistia.com/embed/medias/zqa96s9oyj.m3u8`).
+   - Enter the video name (e.g., `4 HOW TO CREATE A DATABASE.mp4`).
+   - Enter the video URL (e.g., `https://fast.wistia.com/embed/medias/zqa31qweoyj.m3u8`).
    - Enter the prompt text (type `END` on a new line to finish).
 
 4. The video will be downloaded, and a text file with the same name as the video will be created containing your prompts.
@@ -52,7 +52,7 @@ The program automatically uses your Firefox cookies. This means that if the webs
 ```bash
 $ python scraper.py
 Enter the video name: example_video.mp4
-Enter the video URL: https://fast.wistia.com/embed/medias/zqa56hfyj.m3u8
+Enter the video URL: https://fast.wistia.com/embed/medias/zqa31qweoyj.m3u8
 Enter the prompt text (type 'END' on a new line to finish):
 This is an example prompt.
 It can be multiple lines.
